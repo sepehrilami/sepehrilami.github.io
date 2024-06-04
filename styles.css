@@ -23,6 +23,33 @@ nav a {
 	text-decoration: none;
 }
 
+.navbar {
+	background-color: #ADD8E6; /* Light blue background */
+	padding: 1em;
+	text-align: center;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar li {
+	margin-right: 2em;
+}
+
+.navbar a {
+	color: #333;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #666;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
